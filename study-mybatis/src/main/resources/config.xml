@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.sweetop.studymybatis.domain"></package>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!-- 配置数据库连接信息 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://10.19.155.126:3306/ivms440104"/>
+                <property name="username" value="ivms"/>
+                <property name="password" value="Ivms123456!"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--<mapper resource="com/sweetop/studymybatis/mapping/userMapper.xml"></mapper>-->
+        <!--<mapper resource="com/sweetop/studymybatis/mapping/subspaceMapper.xml"/>-->
+        <package name="com.sweetop.studymybatis.mapping"></package>
+    </mappers>
+</configuration>

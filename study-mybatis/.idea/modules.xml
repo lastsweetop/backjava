@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/study-mybatis.iml" filepath="$PROJECT_DIR$/study-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/study-mybatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/study-mybatis_main.iml" group="study-mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/study-mybatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/study-mybatis_test.iml" group="study-mybatis" />
+    </modules>
+  </component>
+</project>

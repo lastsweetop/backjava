@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/study-hibernate.iml" filepath="$PROJECT_DIR$/study-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/study-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/study-hibernate_main.iml" group="study-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/study-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/study-hibernate_test.iml" group="study-hibernate" />
+    </modules>
+  </component>
+</project>
