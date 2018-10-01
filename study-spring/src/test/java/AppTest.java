@@ -37,7 +37,5 @@ public class AppTest {
     public void testLifeCycle() {
          springLifeCycle.sayHello();
          springLifeCycle2.sayHello();
-
-        Statement
     }
 }

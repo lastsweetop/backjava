@@ -1,4 +1,5 @@
 import com.sweetop.studymybatis.domain.User;
+import org.apache.ibatis.session.ExecutorType;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
@@ -23,6 +24,8 @@ public class App {
 
         //创建能执行映射文件中sql的sqlSession
 //        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        ExecutorType.BATCH
       
     }
 }
