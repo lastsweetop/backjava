@@ -11,7 +11,7 @@ public class Box<T> {
         return t;
     }
 
-    @SuppressWarnings("unchecked")
+
     public static void main(String[] args) {
         Box<Integer> integerBox = new Box<>();
 
@@ -24,9 +24,5 @@ public class Box<T> {
         Box<Integer> intBox = rawBox;     // warning: unchecked conversion
 
         rawBox.set(8);
-
-        
-
-
     }
 }

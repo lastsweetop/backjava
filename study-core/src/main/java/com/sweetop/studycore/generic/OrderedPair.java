@@ -18,6 +18,14 @@ public class OrderedPair<K, V> implements Pair<K, V> {
         return value;
     }
 
+    public void setKey(K key) {
+        this.key = key;
+    }
+
+    public void setValue(V value) {
+        this.value = value;
+    }
+
     public static void main(String[] args) {
         OrderedPair<String, Integer> p1 = new OrderedPair<>("Even", 8);
         OrderedPair<String, String> p2 = new OrderedPair<>("hello", "world");
